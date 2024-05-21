@@ -28,7 +28,7 @@ int main()
     adicionaFinal(teste, 57);
     
     mostraLista(teste);
-    optimizedSelectionSort(teste);
+    insertionSort(teste);
     mostraLista(teste);
     deleteAll(teste);
     free(teste);
@@ -43,7 +43,7 @@ int main()
     adicionaFinal(ordem, 5);
     
     mostraLista(ordem);
-    optimizedSelectionSort(ordem);
+    insertionSort(ordem);
     mostraLista(ordem);
     deleteAll(ordem);
     free(ordem);
@@ -51,8 +51,7 @@ int main()
     // O algoritmo realmente está ordenando agora vamos analisar
     // sua eficiência com uma sobrecarga de dados
     LinkedList* lista = novaLista();
-    int temposNaoOtimo[1000];
-    int temposOtimo[1000];
+    int temposInsertion[1000];
     
     for( int i = 0; i < 1000; i++)
     {
@@ -63,39 +62,27 @@ int main()
         }
         
         auto timeStart = high_resolution_clock::now();
-        selectionsort(lista);
+        insertionSort(lista);
         auto timeStop = high_resolution_clock::now();
         
-        auto timeStart1 = high_resolution_clock::now();
-        optimizedSelectionSort(lista);
-        auto timeStop1 = high_resolution_clock::now();
-        
         auto timeDuration = duration_cast<milliseconds>(timeStop - timeStart);
-        auto timeDuration1 = duration_cast<milliseconds>(timeStop1 - timeStart1);
-        cout << "Teste " << i << ", tempo não otimizado: " << timeDuration.count() << " milisegundos" << endl;
-        cout << "Teste " << i << ", tempo otimizado: " << timeDuration1.count() << " milisegundos" << endl;
+        cout << "Teste " << i << ", tempo utilizado: " << timeDuration.count() << " milisegundos" << endl;
         
         // Esvaziando a lista para mais testes
         deleteAll(lista);
         
-        temposNaoOtimo[i] = timeDuration.count();
-        temposOtimo[i] = timeDuration1.count();
+        temposInsertion[i] = timeDuration.count();
     }
     
     // Calculando média
-    float meanNotOptim = findMean(temposNaoOtimo, 1000);
-    float meanOptim = findMean(temposOtimo, 1000);
+    float meanInsertion = findMean(temposInsertion, 1000);
     
     // Calculando o desvio padrão
-    float stdNotOptim = calculateSD(temposNaoOtimo, 1000, meanNotOptim);
-    float stdOptim = calculateSD(temposOtimo, 1000, meanOptim);
+    float stdInsertion = calculateSD(temposInsertion, 1000, meanInsertion);
     
     // Exibindo os resultados
-    cout << "Média não otimizada: " << meanNotOptim << endl;
-    cout << "Média otimizada: " << meanOptim << endl;
-    
-    cout << "Desvio padrão não otimizado: " << stdNotOptim << endl;
-    cout << "Desvio padrão otimizado: " << stdOptim << endl;
+    cout << "Média BubbleSort: " << meanInsertion << endl;
+    cout << "Desvio padrão BubbleSort: " << stdInsertion << endl;
     
 
     return 0;
