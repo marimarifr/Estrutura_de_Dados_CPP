@@ -114,6 +114,7 @@ void swapValue(Node* elemento1, Node* elemento2)
     elemento1->iPayload = elemento2->iPayload;
     elemento2->iPayload = iValor1;
 }
+
 // ===============================================================
 
 // Ordenação sem otimização
@@ -274,6 +275,61 @@ void insertionSort(LinkedList* lista)
         outerLoop = outerLoop->ptrNext;
     }
     return;
+}
+
+//================================================================
+//Shell sort list
+void shellSort(Node **head, int iLength) 
+{
+    if (*head == nullptr || iLength < 2) 
+    {   
+        cout<<"Lista de apenas 1 elemento"<< endl;
+        return;
+    }
+
+    for (int gap = iLength / 2; gap > 0; gap /= 2) 
+    {
+        for (int i = gap; i < iLength; ++i) 
+        {
+            Node *temp = *head;
+            
+            for (int j = 0; j < i; j++) 
+            {
+                temp = temp->ptrNext;
+            }
+            
+            Node *current = temp;
+            
+            for (int count = 0; count < gap && current != nullptr; count++) 
+            {
+                current = current->ptrNext;
+            }
+
+            while (current != nullptr) 
+            {
+                Node *inner = current;
+                Node *traverse = inner;
+                
+                for (int count = 0; count < gap && traverse->ptrPrev != nullptr; count++) 
+                {
+                    traverse = traverse->ptrPrev;
+                }
+
+                while (traverse != nullptr && traverse->iPayload > inner->iPayload) 
+                {
+                    swapValue(inner, traverse);
+                    inner = traverse;
+                    
+                    for (int count = 0; count < gap && traverse->ptrPrev != nullptr; count++) 
+                    {
+                        traverse = traverse->ptrPrev;
+                    }
+                }
+
+                current = current->ptrNext;
+            }
+        }
+    }
 }
 
 

@@ -38,7 +38,11 @@ void optimizedBubbleSortList(Node**, int);
 // Insertion
 void insertionSort(LinkedList*);
 
+// Shell sort
+void shellSort (Node**, int);
+
 // Estatísticas descritivas
 float findMean(int[], int);
 float calculateSD(int[], int, float);
+
 
