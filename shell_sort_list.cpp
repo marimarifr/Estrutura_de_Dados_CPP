@@ -29,18 +29,14 @@ int main()
     
     //Testando o SHELL SORT para a lista desordenada, passando o endereço do primeiro 
     shellSort(&head, 6);
-    cout<<"Resultado não otimizado para lista não ordenada>"<< endl;
+    cout<<"Resultado para lista não ordenada>"<< endl;
     displayNodes(head);
     
-    //Testando para a lista já ordenada
-    shellSort(&head, 6);
-    cout<< "Resultado não otimizado para lista já ordenada>"<< endl;
-    displayNodes(head);
     
     //Deletando toda a lista
     deleteNodes(&head);
     
-    cout << "=========== fim do não otimizado" << endl;
+    cout << "=======================" << endl;
     
     // Node* head = nullptr;
     
