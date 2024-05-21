@@ -1,4 +1,5 @@
 #include "sort_algorithms.h"
+using namespace sortAlgorithms;
 #include <iostream>
 #include <cstdlib>
 #include <cmath>
