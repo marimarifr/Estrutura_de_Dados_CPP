@@ -85,10 +85,10 @@ int main()
     // sua eficiência com uma sobrecarga de dados
     head = NULL;
     
-    int temposNaoOtimo[1000];
-    int temposOtimo[1000];
+    int temposNaoOtimo[100];
+    int temposOtimo[100];
     
-    for( int i = 0; i < 1000; i++)
+    for( int i = 0; i < 100; i++)
     {
         for (int j = 0; j < 10000; j++) 
         {
@@ -117,12 +117,12 @@ int main()
     }
     
     // Calculando média
-    float meanNotOptim = findMean(temposNaoOtimo, 1000);
-    float meanOptim = findMean(temposOtimo, 1000);
+    float meanNotOptim = findMean(temposNaoOtimo, 100);
+    float meanOptim = findMean(temposOtimo, 100);
     
     // Calculando o desvio padrão
-    float stdNotOptim = calculateSD(temposNaoOtimo, 1000, meanNotOptim);
-    float stdOptim = calculateSD(temposOtimo, 1000, meanOptim);
+    float stdNotOptim = calculateSD(temposNaoOtimo, 100, meanNotOptim);
+    float stdOptim = calculateSD(temposOtimo, 100, meanOptim);
   
     // Exibindo os resultados
     cout << "Média não otimizada: " << meanNotOptim << endl;

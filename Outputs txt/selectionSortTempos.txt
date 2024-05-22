@@ -1,0 +1,312 @@
+Testando a ordenação:
+Elementos na lista: 100 99 200 10 57 
+Elementos na lista: 10 57 99 100 200 
+Lista esta vazia
+Lista já ordenada:
+Elementos na lista: 1 2 3 4 5 
+Elementos na lista: 1 2 3 4 5 
+Lista esta vazia
+Teste 0, tempo não otimizado: 130 milisegundos
+Teste 0, tempo otimizado: 171 milisegundos
+Lista esta vazia
+Teste 1, tempo não otimizado: 151 milisegundos
+Teste 1, tempo otimizado: 184 milisegundos
+Lista esta vazia
+Teste 2, tempo não otimizado: 122 milisegundos
+Teste 2, tempo otimizado: 168 milisegundos
+Lista esta vazia
+Teste 3, tempo não otimizado: 146 milisegundos
+Teste 3, tempo otimizado: 185 milisegundos
+Lista esta vazia
+Teste 4, tempo não otimizado: 123 milisegundos
+Teste 4, tempo otimizado: 166 milisegundos
+Lista esta vazia
+Teste 5, tempo não otimizado: 148 milisegundos
+Teste 5, tempo otimizado: 185 milisegundos
+Lista esta vazia
+Teste 6, tempo não otimizado: 128 milisegundos
+Teste 6, tempo otimizado: 166 milisegundos
+Lista esta vazia
+Teste 7, tempo não otimizado: 147 milisegundos
+Teste 7, tempo otimizado: 184 milisegundos
+Lista esta vazia
+Teste 8, tempo não otimizado: 122 milisegundos
+Teste 8, tempo otimizado: 167 milisegundos
+Lista esta vazia
+Teste 9, tempo não otimizado: 147 milisegundos
+Teste 9, tempo otimizado: 185 milisegundos
+Lista esta vazia
+Teste 10, tempo não otimizado: 122 milisegundos
+Teste 10, tempo otimizado: 166 milisegundos
+Lista esta vazia
+Teste 11, tempo não otimizado: 147 milisegundos
+Teste 11, tempo otimizado: 184 milisegundos
+Lista esta vazia
+Teste 12, tempo não otimizado: 122 milisegundos
+Teste 12, tempo otimizado: 166 milisegundos
+Lista esta vazia
+Teste 13, tempo não otimizado: 148 milisegundos
+Teste 13, tempo otimizado: 184 milisegundos
+Lista esta vazia
+Teste 14, tempo não otimizado: 122 milisegundos
+Teste 14, tempo otimizado: 166 milisegundos
+Lista esta vazia
+Teste 15, tempo não otimizado: 149 milisegundos
+Teste 15, tempo otimizado: 184 milisegundos
+Lista esta vazia
+Teste 16, tempo não otimizado: 122 milisegundos
+Teste 16, tempo otimizado: 166 milisegundos
+Lista esta vazia
+Teste 17, tempo não otimizado: 149 milisegundos
+Teste 17, tempo otimizado: 192 milisegundos
+Lista esta vazia
+Teste 18, tempo não otimizado: 122 milisegundos
+Teste 18, tempo otimizado: 166 milisegundos
+Lista esta vazia
+Teste 19, tempo não otimizado: 148 milisegundos
+Teste 19, tempo otimizado: 185 milisegundos
+Lista esta vazia
+Teste 20, tempo não otimizado: 122 milisegundos
+Teste 20, tempo otimizado: 166 milisegundos
+Lista esta vazia
+Teste 21, tempo não otimizado: 147 milisegundos
+Teste 21, tempo otimizado: 185 milisegundos
+Lista esta vazia
+Teste 22, tempo não otimizado: 122 milisegundos
+Teste 22, tempo otimizado: 166 milisegundos
+Lista esta vazia
+Teste 23, tempo não otimizado: 147 milisegundos
+Teste 23, tempo otimizado: 185 milisegundos
+Lista esta vazia
+Teste 24, tempo não otimizado: 122 milisegundos
+Teste 24, tempo otimizado: 166 milisegundos
+Lista esta vazia
+Teste 25, tempo não otimizado: 146 milisegundos
+Teste 25, tempo otimizado: 185 milisegundos
+Lista esta vazia
+Teste 26, tempo não otimizado: 122 milisegundos
+Teste 26, tempo otimizado: 166 milisegundos
+Lista esta vazia
+Teste 27, tempo não otimizado: 147 milisegundos
+Teste 27, tempo otimizado: 186 milisegundos
+Lista esta vazia
+Teste 28, tempo não otimizado: 122 milisegundos
+Teste 28, tempo otimizado: 166 milisegundos
+Lista esta vazia
+Teste 29, tempo não otimizado: 152 milisegundos
+Teste 29, tempo otimizado: 187 milisegundos
+Lista esta vazia
+Teste 30, tempo não otimizado: 122 milisegundos
+Teste 30, tempo otimizado: 166 milisegundos
+Lista esta vazia
+Teste 31, tempo não otimizado: 149 milisegundos
+Teste 31, tempo otimizado: 185 milisegundos
+Lista esta vazia
+Teste 32, tempo não otimizado: 122 milisegundos
+Teste 32, tempo otimizado: 166 milisegundos
+Lista esta vazia
+Teste 33, tempo não otimizado: 146 milisegundos
+Teste 33, tempo otimizado: 187 milisegundos
+Lista esta vazia
+Teste 34, tempo não otimizado: 122 milisegundos
+Teste 34, tempo otimizado: 166 milisegundos
+Lista esta vazia
+Teste 35, tempo não otimizado: 146 milisegundos
+Teste 35, tempo otimizado: 186 milisegundos
+Lista esta vazia
+Teste 36, tempo não otimizado: 122 milisegundos
+Teste 36, tempo otimizado: 166 milisegundos
+Lista esta vazia
+Teste 37, tempo não otimizado: 146 milisegundos
+Teste 37, tempo otimizado: 185 milisegundos
+Lista esta vazia
+Teste 38, tempo não otimizado: 122 milisegundos
+Teste 38, tempo otimizado: 166 milisegundos
+Lista esta vazia
+Teste 39, tempo não otimizado: 146 milisegundos
+Teste 39, tempo otimizado: 184 milisegundos
+Lista esta vazia
+Teste 40, tempo não otimizado: 122 milisegundos
+Teste 40, tempo otimizado: 166 milisegundos
+Lista esta vazia
+Teste 41, tempo não otimizado: 146 milisegundos
+Teste 41, tempo otimizado: 185 milisegundos
+Lista esta vazia
+Teste 42, tempo não otimizado: 122 milisegundos
+Teste 42, tempo otimizado: 166 milisegundos
+Lista esta vazia
+Teste 43, tempo não otimizado: 147 milisegundos
+Teste 43, tempo otimizado: 186 milisegundos
+Lista esta vazia
+Teste 44, tempo não otimizado: 122 milisegundos
+Teste 44, tempo otimizado: 166 milisegundos
+Lista esta vazia
+Teste 45, tempo não otimizado: 146 milisegundos
+Teste 45, tempo otimizado: 184 milisegundos
+Lista esta vazia
+Teste 46, tempo não otimizado: 122 milisegundos
+Teste 46, tempo otimizado: 166 milisegundos
+Lista esta vazia
+Teste 47, tempo não otimizado: 146 milisegundos
+Teste 47, tempo otimizado: 185 milisegundos
+Lista esta vazia
+Teste 48, tempo não otimizado: 122 milisegundos
+Teste 48, tempo otimizado: 167 milisegundos
+Lista esta vazia
+Teste 49, tempo não otimizado: 146 milisegundos
+Teste 49, tempo otimizado: 185 milisegundos
+Lista esta vazia
+Teste 50, tempo não otimizado: 122 milisegundos
+Teste 50, tempo otimizado: 167 milisegundos
+Lista esta vazia
+Teste 51, tempo não otimizado: 146 milisegundos
+Teste 51, tempo otimizado: 184 milisegundos
+Lista esta vazia
+Teste 52, tempo não otimizado: 122 milisegundos
+Teste 52, tempo otimizado: 169 milisegundos
+Lista esta vazia
+Teste 53, tempo não otimizado: 146 milisegundos
+Teste 53, tempo otimizado: 185 milisegundos
+Lista esta vazia
+Teste 54, tempo não otimizado: 122 milisegundos
+Teste 54, tempo otimizado: 166 milisegundos
+Lista esta vazia
+Teste 55, tempo não otimizado: 146 milisegundos
+Teste 55, tempo otimizado: 184 milisegundos
+Lista esta vazia
+Teste 56, tempo não otimizado: 122 milisegundos
+Teste 56, tempo otimizado: 166 milisegundos
+Lista esta vazia
+Teste 57, tempo não otimizado: 146 milisegundos
+Teste 57, tempo otimizado: 184 milisegundos
+Lista esta vazia
+Teste 58, tempo não otimizado: 122 milisegundos
+Teste 58, tempo otimizado: 166 milisegundos
+Lista esta vazia
+Teste 59, tempo não otimizado: 146 milisegundos
+Teste 59, tempo otimizado: 184 milisegundos
+Lista esta vazia
+Teste 60, tempo não otimizado: 122 milisegundos
+Teste 60, tempo otimizado: 166 milisegundos
+Lista esta vazia
+Teste 61, tempo não otimizado: 146 milisegundos
+Teste 61, tempo otimizado: 184 milisegundos
+Lista esta vazia
+Teste 62, tempo não otimizado: 122 milisegundos
+Teste 62, tempo otimizado: 166 milisegundos
+Lista esta vazia
+Teste 63, tempo não otimizado: 146 milisegundos
+Teste 63, tempo otimizado: 184 milisegundos
+Lista esta vazia
+Teste 64, tempo não otimizado: 125 milisegundos
+Teste 64, tempo otimizado: 166 milisegundos
+Lista esta vazia
+Teste 65, tempo não otimizado: 146 milisegundos
+Teste 65, tempo otimizado: 185 milisegundos
+Lista esta vazia
+Teste 66, tempo não otimizado: 123 milisegundos
+Teste 66, tempo otimizado: 167 milisegundos
+Lista esta vazia
+Teste 67, tempo não otimizado: 147 milisegundos
+Teste 67, tempo otimizado: 184 milisegundos
+Lista esta vazia
+Teste 68, tempo não otimizado: 121 milisegundos
+Teste 68, tempo otimizado: 166 milisegundos
+Lista esta vazia
+Teste 69, tempo não otimizado: 146 milisegundos
+Teste 69, tempo otimizado: 184 milisegundos
+Lista esta vazia
+Teste 70, tempo não otimizado: 122 milisegundos
+Teste 70, tempo otimizado: 171 milisegundos
+Lista esta vazia
+Teste 71, tempo não otimizado: 146 milisegundos
+Teste 71, tempo otimizado: 184 milisegundos
+Lista esta vazia
+Teste 72, tempo não otimizado: 122 milisegundos
+Teste 72, tempo otimizado: 167 milisegundos
+Lista esta vazia
+Teste 73, tempo não otimizado: 146 milisegundos
+Teste 73, tempo otimizado: 184 milisegundos
+Lista esta vazia
+Teste 74, tempo não otimizado: 122 milisegundos
+Teste 74, tempo otimizado: 167 milisegundos
+Lista esta vazia
+Teste 75, tempo não otimizado: 146 milisegundos
+Teste 75, tempo otimizado: 185 milisegundos
+Lista esta vazia
+Teste 76, tempo não otimizado: 122 milisegundos
+Teste 76, tempo otimizado: 167 milisegundos
+Lista esta vazia
+Teste 77, tempo não otimizado: 146 milisegundos
+Teste 77, tempo otimizado: 184 milisegundos
+Lista esta vazia
+Teste 78, tempo não otimizado: 122 milisegundos
+Teste 78, tempo otimizado: 166 milisegundos
+Lista esta vazia
+Teste 79, tempo não otimizado: 146 milisegundos
+Teste 79, tempo otimizado: 184 milisegundos
+Lista esta vazia
+Teste 80, tempo não otimizado: 122 milisegundos
+Teste 80, tempo otimizado: 167 milisegundos
+Lista esta vazia
+Teste 81, tempo não otimizado: 146 milisegundos
+Teste 81, tempo otimizado: 184 milisegundos
+Lista esta vazia
+Teste 82, tempo não otimizado: 122 milisegundos
+Teste 82, tempo otimizado: 166 milisegundos
+Lista esta vazia
+Teste 83, tempo não otimizado: 146 milisegundos
+Teste 83, tempo otimizado: 184 milisegundos
+Lista esta vazia
+Teste 84, tempo não otimizado: 123 milisegundos
+Teste 84, tempo otimizado: 168 milisegundos
+Lista esta vazia
+Teste 85, tempo não otimizado: 146 milisegundos
+Teste 85, tempo otimizado: 184 milisegundos
+Lista esta vazia
+Teste 86, tempo não otimizado: 122 milisegundos
+Teste 86, tempo otimizado: 166 milisegundos
+Lista esta vazia
+Teste 87, tempo não otimizado: 147 milisegundos
+Teste 87, tempo otimizado: 186 milisegundos
+Lista esta vazia
+Teste 88, tempo não otimizado: 122 milisegundos
+Teste 88, tempo otimizado: 166 milisegundos
+Lista esta vazia
+Teste 89, tempo não otimizado: 147 milisegundos
+Teste 89, tempo otimizado: 185 milisegundos
+Lista esta vazia
+Teste 90, tempo não otimizado: 122 milisegundos
+Teste 90, tempo otimizado: 166 milisegundos
+Lista esta vazia
+Teste 91, tempo não otimizado: 153 milisegundos
+Teste 91, tempo otimizado: 185 milisegundos
+Lista esta vazia
+Teste 92, tempo não otimizado: 122 milisegundos
+Teste 92, tempo otimizado: 166 milisegundos
+Lista esta vazia
+Teste 93, tempo não otimizado: 147 milisegundos
+Teste 93, tempo otimizado: 184 milisegundos
+Lista esta vazia
+Teste 94, tempo não otimizado: 122 milisegundos
+Teste 94, tempo otimizado: 166 milisegundos
+Lista esta vazia
+Teste 95, tempo não otimizado: 149 milisegundos
+Teste 95, tempo otimizado: 185 milisegundos
+Lista esta vazia
+Teste 96, tempo não otimizado: 122 milisegundos
+Teste 96, tempo otimizado: 166 milisegundos
+Lista esta vazia
+Teste 97, tempo não otimizado: 147 milisegundos
+Teste 97, tempo otimizado: 185 milisegundos
+Lista esta vazia
+Teste 98, tempo não otimizado: 122 milisegundos
+Teste 98, tempo otimizado: 166 milisegundos
+Lista esta vazia
+Teste 99, tempo não otimizado: 146 milisegundos
+Teste 99, tempo otimizado: 185 milisegundos
+Lista esta vazia
+Média não otimizada: 134.67
+Média otimizada: 175.67
+Desvio padrão não otimizado: 12.3831
+Desvio padrão otimizado: 9.24884

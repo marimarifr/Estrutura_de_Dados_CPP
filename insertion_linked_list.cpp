@@ -52,9 +52,9 @@ int main()
     // O algoritmo realmente está ordenando agora vamos analisar
     // sua eficiência com uma sobrecarga de dados
     LinkedList* lista = novaLista();
-    int temposInsertion[1000];
+    int temposInsertion[100];
     
-    for( int i = 0; i < 1000; i++)
+    for( int i = 0; i < 100; i++)
     {
         for (int j = 0; j < 10000; j++) 
         {
@@ -76,14 +76,14 @@ int main()
     }
     
     // Calculando média
-    float meanInsertion = findMean(temposInsertion, 1000);
+    float meanInsertion = findMean(temposInsertion, 100);
     
     // Calculando o desvio padrão
-    float stdInsertion = calculateSD(temposInsertion, 1000, meanInsertion);
+    float stdInsertion = calculateSD(temposInsertion, 100, meanInsertion);
     
     // Exibindo os resultados
-    cout << "Média BubbleSort: " << meanInsertion << endl;
-    cout << "Desvio padrão BubbleSort: " << stdInsertion << endl;
+    cout << "Média Insertion: " << meanInsertion << endl;
+    cout << "Desvio padrão Insertion: " << stdInsertion << endl;
     
 
     return 0;

@@ -122,6 +122,18 @@ float calculateSD(T lista[], int iTam, float mean)
 } 
 
 // ===============================================================
+
+template<typename T>
+Node* createNode(T iPayload)
+{
+    Node* temp = (Node*)malloc(sizeof(Node));
+    temp -> iPayload = iPayload;
+    temp -> ptrNext = nullptr;
+    temp -> ptrPrev = nullptr;
+    
+    return temp;
+}
+
 template<typename T>
 void insertEnd(Node** head, T iPayload)
 {
@@ -144,18 +156,6 @@ void insertEnd(Node** head, T iPayload)
   newNode -> ptrPrev = temp; //newNode aponta para o fim da lista
   temp -> ptrNext = newNode; //Antigo último elemento aponta para o novo nó
 }
-
-template<typename T>
-Node* createNode(T iPayload)
-{
-    Node* temp = (Node*)malloc(sizeof(Node));
-    temp -> iPayload = iPayload;
-    temp -> ptrNext = nullptr;
-    temp -> ptrPrev = nullptr;
-    
-    return temp;
-}
-
 }
 
 

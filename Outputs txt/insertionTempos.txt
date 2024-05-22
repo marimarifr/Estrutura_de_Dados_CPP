@@ -1,0 +1,210 @@
+Testando a ordenação:
+Elementos na lista: 100 99 200 10 57 
+Elementos na lista: 10 57 99 100 200 
+Lista esta vazia
+Lista já ordenada:
+Elementos na lista: 1 2 3 4 5 
+Elementos na lista: 1 2 3 4 5 
+Lista esta vazia
+Teste 0, tempo utilizado: 119 milisegundos
+Lista esta vazia
+Teste 1, tempo utilizado: 130 milisegundos
+Lista esta vazia
+Teste 2, tempo utilizado: 119 milisegundos
+Lista esta vazia
+Teste 3, tempo utilizado: 131 milisegundos
+Lista esta vazia
+Teste 4, tempo utilizado: 118 milisegundos
+Lista esta vazia
+Teste 5, tempo utilizado: 129 milisegundos
+Lista esta vazia
+Teste 6, tempo utilizado: 120 milisegundos
+Lista esta vazia
+Teste 7, tempo utilizado: 129 milisegundos
+Lista esta vazia
+Teste 8, tempo utilizado: 118 milisegundos
+Lista esta vazia
+Teste 9, tempo utilizado: 128 milisegundos
+Lista esta vazia
+Teste 10, tempo utilizado: 119 milisegundos
+Lista esta vazia
+Teste 11, tempo utilizado: 129 milisegundos
+Lista esta vazia
+Teste 12, tempo utilizado: 119 milisegundos
+Lista esta vazia
+Teste 13, tempo utilizado: 127 milisegundos
+Lista esta vazia
+Teste 14, tempo utilizado: 118 milisegundos
+Lista esta vazia
+Teste 15, tempo utilizado: 129 milisegundos
+Lista esta vazia
+Teste 16, tempo utilizado: 117 milisegundos
+Lista esta vazia
+Teste 17, tempo utilizado: 130 milisegundos
+Lista esta vazia
+Teste 18, tempo utilizado: 120 milisegundos
+Lista esta vazia
+Teste 19, tempo utilizado: 127 milisegundos
+Lista esta vazia
+Teste 20, tempo utilizado: 118 milisegundos
+Lista esta vazia
+Teste 21, tempo utilizado: 129 milisegundos
+Lista esta vazia
+Teste 22, tempo utilizado: 118 milisegundos
+Lista esta vazia
+Teste 23, tempo utilizado: 130 milisegundos
+Lista esta vazia
+Teste 24, tempo utilizado: 119 milisegundos
+Lista esta vazia
+Teste 25, tempo utilizado: 128 milisegundos
+Lista esta vazia
+Teste 26, tempo utilizado: 120 milisegundos
+Lista esta vazia
+Teste 27, tempo utilizado: 129 milisegundos
+Lista esta vazia
+Teste 28, tempo utilizado: 124 milisegundos
+Lista esta vazia
+Teste 29, tempo utilizado: 143 milisegundos
+Lista esta vazia
+Teste 30, tempo utilizado: 122 milisegundos
+Lista esta vazia
+Teste 31, tempo utilizado: 129 milisegundos
+Lista esta vazia
+Teste 32, tempo utilizado: 119 milisegundos
+Lista esta vazia
+Teste 33, tempo utilizado: 127 milisegundos
+Lista esta vazia
+Teste 34, tempo utilizado: 119 milisegundos
+Lista esta vazia
+Teste 35, tempo utilizado: 126 milisegundos
+Lista esta vazia
+Teste 36, tempo utilizado: 124 milisegundos
+Lista esta vazia
+Teste 37, tempo utilizado: 129 milisegundos
+Lista esta vazia
+Teste 38, tempo utilizado: 119 milisegundos
+Lista esta vazia
+Teste 39, tempo utilizado: 128 milisegundos
+Lista esta vazia
+Teste 40, tempo utilizado: 117 milisegundos
+Lista esta vazia
+Teste 41, tempo utilizado: 129 milisegundos
+Lista esta vazia
+Teste 42, tempo utilizado: 117 milisegundos
+Lista esta vazia
+Teste 43, tempo utilizado: 127 milisegundos
+Lista esta vazia
+Teste 44, tempo utilizado: 120 milisegundos
+Lista esta vazia
+Teste 45, tempo utilizado: 128 milisegundos
+Lista esta vazia
+Teste 46, tempo utilizado: 123 milisegundos
+Lista esta vazia
+Teste 47, tempo utilizado: 131 milisegundos
+Lista esta vazia
+Teste 48, tempo utilizado: 119 milisegundos
+Lista esta vazia
+Teste 49, tempo utilizado: 127 milisegundos
+Lista esta vazia
+Teste 50, tempo utilizado: 119 milisegundos
+Lista esta vazia
+Teste 51, tempo utilizado: 128 milisegundos
+Lista esta vazia
+Teste 52, tempo utilizado: 129 milisegundos
+Lista esta vazia
+Teste 53, tempo utilizado: 135 milisegundos
+Lista esta vazia
+Teste 54, tempo utilizado: 120 milisegundos
+Lista esta vazia
+Teste 55, tempo utilizado: 128 milisegundos
+Lista esta vazia
+Teste 56, tempo utilizado: 119 milisegundos
+Lista esta vazia
+Teste 57, tempo utilizado: 129 milisegundos
+Lista esta vazia
+Teste 58, tempo utilizado: 143 milisegundos
+Lista esta vazia
+Teste 59, tempo utilizado: 134 milisegundos
+Lista esta vazia
+Teste 60, tempo utilizado: 119 milisegundos
+Lista esta vazia
+Teste 61, tempo utilizado: 128 milisegundos
+Lista esta vazia
+Teste 62, tempo utilizado: 119 milisegundos
+Lista esta vazia
+Teste 63, tempo utilizado: 130 milisegundos
+Lista esta vazia
+Teste 64, tempo utilizado: 119 milisegundos
+Lista esta vazia
+Teste 65, tempo utilizado: 129 milisegundos
+Lista esta vazia
+Teste 66, tempo utilizado: 116 milisegundos
+Lista esta vazia
+Teste 67, tempo utilizado: 128 milisegundos
+Lista esta vazia
+Teste 68, tempo utilizado: 119 milisegundos
+Lista esta vazia
+Teste 69, tempo utilizado: 130 milisegundos
+Lista esta vazia
+Teste 70, tempo utilizado: 120 milisegundos
+Lista esta vazia
+Teste 71, tempo utilizado: 128 milisegundos
+Lista esta vazia
+Teste 72, tempo utilizado: 120 milisegundos
+Lista esta vazia
+Teste 73, tempo utilizado: 128 milisegundos
+Lista esta vazia
+Teste 74, tempo utilizado: 116 milisegundos
+Lista esta vazia
+Teste 75, tempo utilizado: 128 milisegundos
+Lista esta vazia
+Teste 76, tempo utilizado: 118 milisegundos
+Lista esta vazia
+Teste 77, tempo utilizado: 128 milisegundos
+Lista esta vazia
+Teste 78, tempo utilizado: 119 milisegundos
+Lista esta vazia
+Teste 79, tempo utilizado: 127 milisegundos
+Lista esta vazia
+Teste 80, tempo utilizado: 120 milisegundos
+Lista esta vazia
+Teste 81, tempo utilizado: 128 milisegundos
+Lista esta vazia
+Teste 82, tempo utilizado: 120 milisegundos
+Lista esta vazia
+Teste 83, tempo utilizado: 129 milisegundos
+Lista esta vazia
+Teste 84, tempo utilizado: 118 milisegundos
+Lista esta vazia
+Teste 85, tempo utilizado: 130 milisegundos
+Lista esta vazia
+Teste 86, tempo utilizado: 118 milisegundos
+Lista esta vazia
+Teste 87, tempo utilizado: 130 milisegundos
+Lista esta vazia
+Teste 88, tempo utilizado: 118 milisegundos
+Lista esta vazia
+Teste 89, tempo utilizado: 129 milisegundos
+Lista esta vazia
+Teste 90, tempo utilizado: 119 milisegundos
+Lista esta vazia
+Teste 91, tempo utilizado: 129 milisegundos
+Lista esta vazia
+Teste 92, tempo utilizado: 119 milisegundos
+Lista esta vazia
+Teste 93, tempo utilizado: 129 milisegundos
+Lista esta vazia
+Teste 94, tempo utilizado: 117 milisegundos
+Lista esta vazia
+Teste 95, tempo utilizado: 128 milisegundos
+Lista esta vazia
+Teste 96, tempo utilizado: 118 milisegundos
+Lista esta vazia
+Teste 97, tempo utilizado: 129 milisegundos
+Lista esta vazia
+Teste 98, tempo utilizado: 119 milisegundos
+Lista esta vazia
+Teste 99, tempo utilizado: 130 milisegundos
+Lista esta vazia
+Média insertion: 124.44
+Desvio padrão insertion: 5.76597

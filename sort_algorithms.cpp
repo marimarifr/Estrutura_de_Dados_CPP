@@ -6,7 +6,7 @@
 using std::cout;
 using std::endl;
 
-
+namespace sortAlgorithms{
 // Criação da lista
 LinkedList* novaLista()
 {
@@ -14,43 +14,6 @@ LinkedList* novaLista()
     temp->ptrFirst = NULL;
 
     return temp;
-}
-
-// Criação do nó 
-Node* newNode(int iValue)
-{
-    Node* temp = (Node*) malloc(sizeof(Node));
-
-    temp->iPayload = iValue;
-    temp->ptrNext = NULL;
-    temp->ptrPrev = NULL;
-    return temp;
-}
-// Adiciona elemento 
-void adicionaFinal(LinkedList *lista, int iValor)
-{
-    Node* temp = newNode(iValor);
-
-    // Se lista vazia, adiciona no primeiro
-    if ( lista->ptrFirst == NULL)
-    {
-        lista->ptrFirst = temp;
-        return;
-    }
-
-    Node* atual = lista->ptrFirst;
-
-    // Encontra o último aluno
-    while(atual->ptrNext != NULL)
-    {
-        atual = atual->ptrNext;
-    }
-
-    // Adiciona após o último
-    atual->ptrNext = temp;
-    temp->ptrPrev = atual;
-    return;
-
 }
 
 // Exibição da lista no console
@@ -109,7 +72,8 @@ void deleteAll(LinkedList* lista)
 // Troca os valores entre os nós
 void swapValue(Node* elemento1, Node* elemento2)
 {
-    int iValor1 = elemento1->iPayload;
+    // Não é possível fazer template pois não é um parametro
+    auto iValor1 = elemento1->iPayload;
     
     elemento1->iPayload = elemento2->iPayload;
     elemento2->iPayload = iValor1;
@@ -259,7 +223,7 @@ void insertionSort(LinkedList* lista)
 {
     Node* outerLoop = lista->ptrFirst->ptrNext;
 
-    int iInsertValue = 0;
+    auto iInsertValue = 0;
 
     while(outerLoop)
     {
@@ -333,40 +297,7 @@ void shellSort(Node **head, int iLength)
 }
 
 
-// ===============================================================
-// Calculando a média
-float findMean(int lista[], int iTam)
-{
-    int i = 0;
-    float mean = 0.0;
-    
-    // Iterando sobre os elementos 
-    for (i =0; i<iTam; i++)
-    {
-        mean += lista[i];
-    }
-    
-    // Normalizando a soma total
-    mean = mean/iTam;
-    
-    return mean;
-}
 
-// Calculando o desvio padrão
-float calculateSD(int lista[], int iTam, float mean) 
-{ 
-    float standardDeviation = 0.0; 
-    int i = 0;
-    
-    // Iterando sobre todos elementos
-    for (int i = 0; i < iTam; i++) 
-    { 
-        // Calculando a diferença ao quadrado com a média
-        standardDeviation += pow(lista[i] - mean, 2); 
-    } 
-
-    return sqrt(standardDeviation / iTam); 
-} 
 
 // ===============================================================
 void displayNodes(Node* node)
@@ -394,39 +325,6 @@ void displayNodes(Node* node)
     cout << endl;
 }
 
-
-void insertEnd(Node** head, int iPayload)
-{
-  Node* newNode = createNode(iPayload);
-  //newNode -> ptrNext = nullptr;
-  
-  if (*head == nullptr)
-  {
-      //newNode -> ptrNext = nullptr; Essa linha não é obrigatória pois já definimos anteriormente
-      (*head) = newNode;
-      return;
-      
-  }
-  
-  Node* temp = (*head);
-  
-  //Percorremos a lista até seu fim(ptrNext do ultimo nó é NULL)
-  while(temp -> ptrNext != nullptr) temp = temp -> ptrNext;
-  
-  newNode -> ptrPrev = temp; //newNode aponta para o fim da lista
-  temp -> ptrNext = newNode; //Antigo último elemento aponta para o novo nó
-}
-
-Node* createNode(int iPayload)
-{
-    Node* temp = (Node*)malloc(sizeof(Node));
-    temp -> iPayload = iPayload;
-    temp -> ptrNext = nullptr;
-    temp -> ptrPrev = nullptr;
-    
-    return temp;
-}
-
 void deleteNodes(Node** head)
 {
     if (*head == nullptr )
@@ -451,4 +349,4 @@ void deleteNodes(Node** head)
 
     cout << "Lista esta vazia" << endl;
 }
-
+}
