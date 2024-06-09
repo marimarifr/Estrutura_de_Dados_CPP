@@ -25,6 +25,13 @@ typedef struct LinkedList
     NodeDll* ptrFirst;
 } LinkedList;
 
+typedef struct NodeSimpleList
+{
+    int iPayload;
+    NodeSimpleList* ptrNext;
+    NodeSimpleList* ptrPrev;
+} NodeSimpleList;
+
 
 
 namespace treeArrayFunctions {
@@ -66,6 +73,7 @@ LinkedList* novaLista();
 void adicionaFinal(LinkedList*, Node*);
 NodeDll* newNode(int);
 void liberaLista(LinkedList* );
+void deleteNodes(NodeSimpleList** )
 
 
 // ===============================================================
@@ -105,6 +113,45 @@ float calculateSD(T lista[], int iTam, float mean)
 
     return sqrt(standardDeviation / iTam); 
 } 
+
+
+// Funções com template
+// Criação do nó 
+template<typename T>
+NodeSimpleList* newNodeSL(T iValue)
+{
+    NodeSimpleList* temp = (NodeSimpleList*) malloc(sizeof(NodeSimpleList));
+    temp->ptrPrev = NULL;
+
+    temp->iPayload = iValue;
+    temp->ptrNext = NULL;
+    return temp;
+}
+// Adiciona elemento 
+template<typename T>
+void adicionaFinalSL(NodeSimpleList** head, T iValor)
+{
+    NodeSimpleList* newNode = newNodeSL(iValor);
+
+    if (*head == nullptr)
+     {
+      (*head) = newNode;
+      return;
+    }
+
+    NodeSimpleList* atual = (*head);
+
+    // Encontra o último aluno
+    while(atual->ptrNext != NULL)
+    {
+        atual = atual->ptrNext;
+    }
+
+    newNode -> ptrPrev = atual; //newNode aponta para o fim da lista
+    atual -> ptrNext = newNode; //Antigo último elemento aponta para o novo nó
+    return;
+
+}
 
 // ===============================================================
 }

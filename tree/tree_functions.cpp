@@ -408,5 +408,28 @@ void deleteTree(Node* startingNode)
     free(startingNode);
 }
 
+void deleteNodes(NodeSimpleList** head)
+{
+    if (*head == nullptr )
+    {
+        cout << "Lista já esta vazia" << endl;
+        return;
+    }
+    
+    NodeSimpleList* temp = *head;
 
+    NodeSimpleList* next = temp->ptrNext;
+    free(temp);
+    *head = NULL;
+
+    while(next)
+    {
+        NodeSimpleList* current = next;
+        next = next->ptrNext;
+        // cout << current->iPayload << " ";
+        free(current);
+    }  
+
+    cout << "Lista esta vazia" << endl;
+}
 }

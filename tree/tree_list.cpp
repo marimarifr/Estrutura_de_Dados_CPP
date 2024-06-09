@@ -35,36 +35,58 @@ int main()
     cout <<"============================="<<endl;
     
     ///////////////////////Teste com 100 elementos na árvore///////////////
+    
+    int lenght = 100;
 
-    // Para geração de números aleatórios entre 0 e 100
-    std::random_device rd;
-    std::mt19937 mt(rd());
-    std::uniform_real_distribution<double> dist(0.0, 100.0);
-    
     Node* newRoot = nullptr;
-    int temposTreeCreat[100];
-    
-    for( int i = 0; i < 100; i++)
+    int temposTreeCreat[lenght];
+
+    for(int m = 0; m<100; m++)
     {
         auto timeStart = high_resolution_clock::now();
-        
-        for (int j = 0; j < 10000; j++) 
-        {
-            int n = dist(mt); 
-            insertNode(newRoot, n);
+
+        for( int i = 0; i < lenght; i++)
+        {        
+            insertNode(newRoot, i);
+                        
         }
-        
         auto timeStop = high_resolution_clock::now();
-        
+            
         auto timeDuration = duration_cast<microseconds>(timeStop - timeStart);
-        cout << "Teste " << i << ", tempo utilizado: " << timeDuration.count() << " microsegundos" << endl;
+        cout << "Teste " << m << ", tempo utilizado: " << timeDuration.count() << " microsegundos" << endl;
         
         // Esvaziando a árvore para mais testes
         deleteTree(newRoot);
         
-        temposTreeCreat[i] = timeDuration.count();
+        temposTreeCreat[m] = timeDuration.count();
     }
     
+    ///////////////////////Teste com 100 elementos na lista///////////////
+
+    // Criando a lista dos nós
+    NodeSimpleList* newList = nullptr;
+    int temposListCreat[lenght];
+    
+    for(int m = 0; m<100; m++)
+    {
+        auto timeStart = high_resolution_clock::now();
+
+        for( int i = 0; i < lenght; i++)
+        {
+            adicionaFinalSL(&newList, i);
+        }
+
+        auto timeStop = high_resolution_clock::now();
+            
+        auto timeDuration = duration_cast<microseconds>(timeStop - timeStart);
+        cout << "Teste " << m << ", tempo utilizado: " << timeDuration.count() << " microsegundos" << endl;
+        
+        // Esvaziando a árvore para mais testes
+        deleteNodes(&newList);
+        
+        temposListCreat[m] = timeDuration.count();
+    }
+
     // Calculando média
     float meanTree = findMean(temposTreeCreat, 100);
     
@@ -74,6 +96,17 @@ int main()
     // Exibindo os resultados
     cout << "Média Tree: " << meanTree << endl;
     cout << "Desvio padrão Tree: " << stdTree << endl;
+
+
+    // Calculando média
+    float meanList = findMean(temposListCreat, 100);
+    
+    // Calculando o desvio padrão
+    float stdList = calculateSD(temposListCreat, 100, meanList);
+    
+    // Exibindo os resultados
+    cout << "Média lista: " << meanList << endl;
+    cout << "Desvio padrão lista: " << stdList << endl;
     
     
     return 0;
