@@ -179,8 +179,8 @@ int main()
     // Calculando o desvio padrão
     float stdDFS = calculateSD(DFStemposSearch, 100, meanDFS);
     // Exibindo os resultados
-    cout << "Média lista: " << meanDFS << endl;
-    cout << "Desvio padrão lista: " << stdDFS << endl;
+    cout << "Média DFS: " << meanDFS << endl;
+    cout << "Desvio padrão DFS: " << stdDFS << endl;
     
 
     cout<<"ACABOU"<<endl;
