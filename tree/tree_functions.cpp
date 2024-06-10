@@ -50,7 +50,12 @@ Node* insertNode(Node* startingNode, int iData)
 Node* dfsSearch(Node* startingNode, int iData)
 {
     if(startingNode == nullptr) return nullptr;
-    else if(iData == startingNode->iPayload) return startingNode;
+    
+    else if(iData == startingNode->iPayload) 
+    {
+        cout<<"Nó encontrado"<< endl;
+        return startingNode;
+    }
     else if(iData < startingNode->iPayload) return dfsSearch(startingNode->ptrLeft, iData);
     else return dfsSearch(startingNode->ptrRight, iData);
 }
@@ -324,8 +329,9 @@ void adicionaFinal(LinkedList *lista, Node* iValor)
 Node* bfsSearch(Node* startingNode, int iData)
 {
     // Testa lista vazia
-    if (startingNode == NULL) return NULL;
-    
+    if (startingNode == NULL) {
+        return NULL;
+    }
     // Criando a lista dos nós
     LinkedList* listaTree = novaLista();
     adicionaFinal(listaTree, startingNode);
