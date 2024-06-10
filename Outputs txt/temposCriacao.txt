@@ -1,126 +1,125 @@
-[?2004l
 BFS Traversal: 42 13 51 11 28 171 10 
 
 Tree hight: 4
 Nó encontrado
-=============================
-Teste 0, tempo utilizado: 9 microsegundos
-Teste 1, tempo utilizado: 9 microsegundos
-Teste 2, tempo utilizado: 5 microsegundos
-Teste 3, tempo utilizado: 9 microsegundos
-Teste 4, tempo utilizado: 9 microsegundos
-Teste 5, tempo utilizado: 8 microsegundos
-Teste 6, tempo utilizado: 5 microsegundos
-Teste 7, tempo utilizado: 9 microsegundos
-Teste 8, tempo utilizado: 9 microsegundos
-Teste 9, tempo utilizado: 9 microsegundos
-Teste 10, tempo utilizado: 9 microsegundos
-Teste 11, tempo utilizado: 5 microsegundos
-Teste 12, tempo utilizado: 8 microsegundos
-Teste 13, tempo utilizado: 9 microsegundos
-Teste 14, tempo utilizado: 9 microsegundos
-Teste 15, tempo utilizado: 5 microsegundos
-Teste 16, tempo utilizado: 9 microsegundos
-Teste 17, tempo utilizado: 8 microsegundos
-Teste 18, tempo utilizado: 12 microsegundos
-Teste 19, tempo utilizado: 9 microsegundos
-Teste 20, tempo utilizado: 5 microsegundos
-Teste 21, tempo utilizado: 10 microsegundos
-Teste 22, tempo utilizado: 9 microsegundos
-Teste 23, tempo utilizado: 8 microsegundos
-Teste 24, tempo utilizado: 8 microsegundos
-Teste 25, tempo utilizado: 5 microsegundos
-Teste 26, tempo utilizado: 9 microsegundos
-Teste 27, tempo utilizado: 9 microsegundos
-Teste 28, tempo utilizado: 9 microsegundos
-Teste 29, tempo utilizado: 5 microsegundos
-Teste 30, tempo utilizado: 11 microsegundos
-Teste 31, tempo utilizado: 9 microsegundos
-Teste 32, tempo utilizado: 8 microsegundos
-Teste 33, tempo utilizado: 9 microsegundos
-Teste 34, tempo utilizado: 5 microsegundos
-Teste 35, tempo utilizado: 9 microsegundos
-Teste 36, tempo utilizado: 9 microsegundos
-Teste 37, tempo utilizado: 8 microsegundos
-Teste 38, tempo utilizado: 5 microsegundos
-Teste 39, tempo utilizado: 9 microsegundos
-Teste 40, tempo utilizado: 9 microsegundos
-Teste 41, tempo utilizado: 8 microsegundos
-Teste 42, tempo utilizado: 8 microsegundos
-Teste 43, tempo utilizado: 5 microsegundos
-Teste 44, tempo utilizado: 9 microsegundos
-Teste 45, tempo utilizado: 9 microsegundos
-Teste 46, tempo utilizado: 9 microsegundos
-Teste 47, tempo utilizado: 5 microsegundos
-Teste 48, tempo utilizado: 9 microsegundos
-Teste 49, tempo utilizado: 11 microsegundos
-Teste 50, tempo utilizado: 8 microsegundos
-Teste 51, tempo utilizado: 8 microsegundos
-Teste 52, tempo utilizado: 5 microsegundos
-Teste 53, tempo utilizado: 9 microsegundos
-Teste 54, tempo utilizado: 9 microsegundos
-Teste 55, tempo utilizado: 8 microsegundos
-Teste 56, tempo utilizado: 14 microsegundos
-Teste 57, tempo utilizado: 5 microsegundos
-Teste 58, tempo utilizado: 9 microsegundos
-Teste 59, tempo utilizado: 8 microsegundos
-Teste 60, tempo utilizado: 11 microsegundos
-Teste 61, tempo utilizado: 5 microsegundos
-Teste 62, tempo utilizado: 9 microsegundos
-Teste 63, tempo utilizado: 9 microsegundos
-Teste 64, tempo utilizado: 9 microsegundos
-Teste 65, tempo utilizado: 9 microsegundos
-Teste 66, tempo utilizado: 5 microsegundos
-Teste 67, tempo utilizado: 8 microsegundos
-Teste 68, tempo utilizado: 10 microsegundos
-Teste 69, tempo utilizado: 9 microsegundos
-Teste 70, tempo utilizado: 6 microsegundos
-Teste 71, tempo utilizado: 9 microsegundos
-Teste 72, tempo utilizado: 7 microsegundos
-Teste 73, tempo utilizado: 16 microsegundos
-Teste 74, tempo utilizado: 7 microsegundos
-Teste 75, tempo utilizado: 4 microsegundos
-Teste 76, tempo utilizado: 8 microsegundos
-Teste 77, tempo utilizado: 9 microsegundos
-Teste 78, tempo utilizado: 9 microsegundos
-Teste 79, tempo utilizado: 6 microsegundos
-Teste 80, tempo utilizado: 8 microsegundos
-Teste 81, tempo utilizado: 8 microsegundos
-Teste 82, tempo utilizado: 5 microsegundos
-Teste 83, tempo utilizado: 5 microsegundos
-Teste 84, tempo utilizado: 2 microsegundos
-Teste 85, tempo utilizado: 5 microsegundos
-Teste 86, tempo utilizado: 5 microsegundos
-Teste 87, tempo utilizado: 7 microsegundos
-Teste 88, tempo utilizado: 5 microsegundos
-Teste 89, tempo utilizado: 2 microsegundos
-Teste 90, tempo utilizado: 5 microsegundos
-Teste 91, tempo utilizado: 5 microsegundos
-Teste 92, tempo utilizado: 5 microsegundos
-Teste 93, tempo utilizado: 4 microsegundos
-Teste 94, tempo utilizado: 8 microsegundos
-Teste 95, tempo utilizado: 8 microsegundos
-Teste 96, tempo utilizado: 9 microsegundos
-Teste 97, tempo utilizado: 9 microsegundos
-Teste 98, tempo utilizado: 6 microsegundos
-Teste 99, tempo utilizado: 5 microsegundos
-Teste 0, tempo utilizado: 25 microsegundos
+========================Comparação entre árvore e lista=====
+Teste 0, tempo utilizado: 129 microsegundos
+Teste 1, tempo utilizado: 90 microsegundos
+Teste 2, tempo utilizado: 76 microsegundos
+Teste 3, tempo utilizado: 74 microsegundos
+Teste 4, tempo utilizado: 73 microsegundos
+Teste 5, tempo utilizado: 69 microsegundos
+Teste 6, tempo utilizado: 69 microsegundos
+Teste 7, tempo utilizado: 70 microsegundos
+Teste 8, tempo utilizado: 74 microsegundos
+Teste 9, tempo utilizado: 75 microsegundos
+Teste 10, tempo utilizado: 193 microsegundos
+Teste 11, tempo utilizado: 71 microsegundos
+Teste 12, tempo utilizado: 69 microsegundos
+Teste 13, tempo utilizado: 71 microsegundos
+Teste 14, tempo utilizado: 73 microsegundos
+Teste 15, tempo utilizado: 72 microsegundos
+Teste 16, tempo utilizado: 71 microsegundos
+Teste 17, tempo utilizado: 71 microsegundos
+Teste 18, tempo utilizado: 71 microsegundos
+Teste 19, tempo utilizado: 71 microsegundos
+Teste 20, tempo utilizado: 75 microsegundos
+Teste 21, tempo utilizado: 71 microsegundos
+Teste 22, tempo utilizado: 106 microsegundos
+Teste 23, tempo utilizado: 63 microsegundos
+Teste 24, tempo utilizado: 63 microsegundos
+Teste 25, tempo utilizado: 72 microsegundos
+Teste 26, tempo utilizado: 56 microsegundos
+Teste 27, tempo utilizado: 55 microsegundos
+Teste 28, tempo utilizado: 55 microsegundos
+Teste 29, tempo utilizado: 56 microsegundos
+Teste 30, tempo utilizado: 56 microsegundos
+Teste 31, tempo utilizado: 55 microsegundos
+Teste 32, tempo utilizado: 55 microsegundos
+Teste 33, tempo utilizado: 59 microsegundos
+Teste 34, tempo utilizado: 56 microsegundos
+Teste 35, tempo utilizado: 55 microsegundos
+Teste 36, tempo utilizado: 55 microsegundos
+Teste 37, tempo utilizado: 63 microsegundos
+Teste 38, tempo utilizado: 66 microsegundos
+Teste 39, tempo utilizado: 56 microsegundos
+Teste 40, tempo utilizado: 59 microsegundos
+Teste 41, tempo utilizado: 68 microsegundos
+Teste 42, tempo utilizado: 74 microsegundos
+Teste 43, tempo utilizado: 75 microsegundos
+Teste 44, tempo utilizado: 70 microsegundos
+Teste 45, tempo utilizado: 63 microsegundos
+Teste 46, tempo utilizado: 59 microsegundos
+Teste 47, tempo utilizado: 55 microsegundos
+Teste 48, tempo utilizado: 55 microsegundos
+Teste 49, tempo utilizado: 67 microsegundos
+Teste 50, tempo utilizado: 56 microsegundos
+Teste 51, tempo utilizado: 55 microsegundos
+Teste 52, tempo utilizado: 63 microsegundos
+Teste 53, tempo utilizado: 60 microsegundos
+Teste 54, tempo utilizado: 55 microsegundos
+Teste 55, tempo utilizado: 55 microsegundos
+Teste 56, tempo utilizado: 55 microsegundos
+Teste 57, tempo utilizado: 55 microsegundos
+Teste 58, tempo utilizado: 55 microsegundos
+Teste 59, tempo utilizado: 55 microsegundos
+Teste 60, tempo utilizado: 55 microsegundos
+Teste 61, tempo utilizado: 59 microsegundos
+Teste 62, tempo utilizado: 55 microsegundos
+Teste 63, tempo utilizado: 56 microsegundos
+Teste 64, tempo utilizado: 55 microsegundos
+Teste 65, tempo utilizado: 56 microsegundos
+Teste 66, tempo utilizado: 56 microsegundos
+Teste 67, tempo utilizado: 55 microsegundos
+Teste 68, tempo utilizado: 58 microsegundos
+Teste 69, tempo utilizado: 55 microsegundos
+Teste 70, tempo utilizado: 62 microsegundos
+Teste 71, tempo utilizado: 63 microsegundos
+Teste 72, tempo utilizado: 68 microsegundos
+Teste 73, tempo utilizado: 71 microsegundos
+Teste 74, tempo utilizado: 72 microsegundos
+Teste 75, tempo utilizado: 80 microsegundos
+Teste 76, tempo utilizado: 72 microsegundos
+Teste 77, tempo utilizado: 71 microsegundos
+Teste 78, tempo utilizado: 94 microsegundos
+Teste 79, tempo utilizado: 70 microsegundos
+Teste 80, tempo utilizado: 65 microsegundos
+Teste 81, tempo utilizado: 67 microsegundos
+Teste 82, tempo utilizado: 66 microsegundos
+Teste 83, tempo utilizado: 69 microsegundos
+Teste 84, tempo utilizado: 74 microsegundos
+Teste 85, tempo utilizado: 72 microsegundos
+Teste 86, tempo utilizado: 76 microsegundos
+Teste 87, tempo utilizado: 74 microsegundos
+Teste 88, tempo utilizado: 251 microsegundos
+Teste 89, tempo utilizado: 75 microsegundos
+Teste 90, tempo utilizado: 74 microsegundos
+Teste 91, tempo utilizado: 72 microsegundos
+Teste 92, tempo utilizado: 71 microsegundos
+Teste 93, tempo utilizado: 73 microsegundos
+Teste 94, tempo utilizado: 72 microsegundos
+Teste 95, tempo utilizado: 179 microsegundos
+Teste 96, tempo utilizado: 61 microsegundos
+Teste 97, tempo utilizado: 61 microsegundos
+Teste 98, tempo utilizado: 63 microsegundos
+Teste 99, tempo utilizado: 68 microsegundos
+Teste 0, tempo utilizado: 23 microsegundos
 Lista esta vazia
-Teste 1, tempo utilizado: 21 microsegundos
+Teste 1, tempo utilizado: 22 microsegundos
 Lista esta vazia
-Teste 2, tempo utilizado: 21 microsegundos
+Teste 2, tempo utilizado: 22 microsegundos
 Lista esta vazia
-Teste 3, tempo utilizado: 20 microsegundos
+Teste 3, tempo utilizado: 22 microsegundos
 Lista esta vazia
-Teste 4, tempo utilizado: 20 microsegundos
+Teste 4, tempo utilizado: 21 microsegundos
 Lista esta vazia
-Teste 5, tempo utilizado: 20 microsegundos
+Teste 5, tempo utilizado: 21 microsegundos
 Lista esta vazia
-Teste 6, tempo utilizado: 19 microsegundos
+Teste 6, tempo utilizado: 22 microsegundos
 Lista esta vazia
-Teste 7, tempo utilizado: 20 microsegundos
+Teste 7, tempo utilizado: 21 microsegundos
 Lista esta vazia
-Teste 8, tempo utilizado: 19 microsegundos
+Teste 8, tempo utilizado: 22 microsegundos
 Lista esta vazia
 Teste 9, tempo utilizado: 22 microsegundos
 Lista esta vazia
@@ -128,9 +127,9 @@ Teste 10, tempo utilizado: 22 microsegundos
 Lista esta vazia
 Teste 11, tempo utilizado: 22 microsegundos
 Lista esta vazia
-Teste 12, tempo utilizado: 27 microsegundos
+Teste 12, tempo utilizado: 21 microsegundos
 Lista esta vazia
-Teste 13, tempo utilizado: 22 microsegundos
+Teste 13, tempo utilizado: 21 microsegundos
 Lista esta vazia
 Teste 14, tempo utilizado: 21 microsegundos
 Lista esta vazia
@@ -140,17 +139,17 @@ Teste 16, tempo utilizado: 21 microsegundos
 Lista esta vazia
 Teste 17, tempo utilizado: 21 microsegundos
 Lista esta vazia
-Teste 18, tempo utilizado: 22 microsegundos
+Teste 18, tempo utilizado: 21 microsegundos
 Lista esta vazia
-Teste 19, tempo utilizado: 21 microsegundos
+Teste 19, tempo utilizado: 20 microsegundos
 Lista esta vazia
-Teste 20, tempo utilizado: 21 microsegundos
+Teste 20, tempo utilizado: 22 microsegundos
 Lista esta vazia
-Teste 21, tempo utilizado: 19 microsegundos
+Teste 21, tempo utilizado: 21 microsegundos
 Lista esta vazia
-Teste 22, tempo utilizado: 19 microsegundos
+Teste 22, tempo utilizado: 21 microsegundos
 Lista esta vazia
-Teste 23, tempo utilizado: 19 microsegundos
+Teste 23, tempo utilizado: 21 microsegundos
 Lista esta vazia
 Teste 24, tempo utilizado: 21 microsegundos
 Lista esta vazia
@@ -160,151 +159,557 @@ Teste 26, tempo utilizado: 21 microsegundos
 Lista esta vazia
 Teste 27, tempo utilizado: 21 microsegundos
 Lista esta vazia
-Teste 28, tempo utilizado: 19 microsegundos
+Teste 28, tempo utilizado: 21 microsegundos
 Lista esta vazia
-Teste 29, tempo utilizado: 19 microsegundos
+Teste 29, tempo utilizado: 21 microsegundos
 Lista esta vazia
-Teste 30, tempo utilizado: 19 microsegundos
+Teste 30, tempo utilizado: 21 microsegundos
 Lista esta vazia
-Teste 31, tempo utilizado: 19 microsegundos
+Teste 31, tempo utilizado: 21 microsegundos
 Lista esta vazia
-Teste 32, tempo utilizado: 19 microsegundos
+Teste 32, tempo utilizado: 21 microsegundos
 Lista esta vazia
-Teste 33, tempo utilizado: 19 microsegundos
+Teste 33, tempo utilizado: 21 microsegundos
 Lista esta vazia
-Teste 34, tempo utilizado: 19 microsegundos
+Teste 34, tempo utilizado: 21 microsegundos
 Lista esta vazia
-Teste 35, tempo utilizado: 19 microsegundos
+Teste 35, tempo utilizado: 28 microsegundos
 Lista esta vazia
-Teste 36, tempo utilizado: 19 microsegundos
+Teste 36, tempo utilizado: 21 microsegundos
 Lista esta vazia
-Teste 37, tempo utilizado: 19 microsegundos
+Teste 37, tempo utilizado: 22 microsegundos
 Lista esta vazia
-Teste 38, tempo utilizado: 19 microsegundos
+Teste 38, tempo utilizado: 22 microsegundos
 Lista esta vazia
-Teste 39, tempo utilizado: 19 microsegundos
+Teste 39, tempo utilizado: 22 microsegundos
 Lista esta vazia
-Teste 40, tempo utilizado: 19 microsegundos
+Teste 40, tempo utilizado: 22 microsegundos
 Lista esta vazia
-Teste 41, tempo utilizado: 19 microsegundos
+Teste 41, tempo utilizado: 22 microsegundos
 Lista esta vazia
-Teste 42, tempo utilizado: 20 microsegundos
+Teste 42, tempo utilizado: 21 microsegundos
 Lista esta vazia
-Teste 43, tempo utilizado: 31 microsegundos
+Teste 43, tempo utilizado: 22 microsegundos
 Lista esta vazia
-Teste 44, tempo utilizado: 19 microsegundos
+Teste 44, tempo utilizado: 22 microsegundos
 Lista esta vazia
-Teste 45, tempo utilizado: 19 microsegundos
+Teste 45, tempo utilizado: 22 microsegundos
 Lista esta vazia
-Teste 46, tempo utilizado: 19 microsegundos
+Teste 46, tempo utilizado: 37 microsegundos
 Lista esta vazia
-Teste 47, tempo utilizado: 19 microsegundos
+Teste 47, tempo utilizado: 21 microsegundos
 Lista esta vazia
-Teste 48, tempo utilizado: 19 microsegundos
+Teste 48, tempo utilizado: 21 microsegundos
 Lista esta vazia
-Teste 49, tempo utilizado: 19 microsegundos
+Teste 49, tempo utilizado: 21 microsegundos
 Lista esta vazia
-Teste 50, tempo utilizado: 20 microsegundos
+Teste 50, tempo utilizado: 22 microsegundos
 Lista esta vazia
-Teste 51, tempo utilizado: 19 microsegundos
+Teste 51, tempo utilizado: 21 microsegundos
 Lista esta vazia
-Teste 52, tempo utilizado: 19 microsegundos
+Teste 52, tempo utilizado: 21 microsegundos
 Lista esta vazia
-Teste 53, tempo utilizado: 19 microsegundos
+Teste 53, tempo utilizado: 22 microsegundos
 Lista esta vazia
-Teste 54, tempo utilizado: 20 microsegundos
+Teste 54, tempo utilizado: 22 microsegundos
 Lista esta vazia
-Teste 55, tempo utilizado: 19 microsegundos
+Teste 55, tempo utilizado: 22 microsegundos
 Lista esta vazia
-Teste 56, tempo utilizado: 20 microsegundos
+Teste 56, tempo utilizado: 21 microsegundos
 Lista esta vazia
 Teste 57, tempo utilizado: 22 microsegundos
 Lista esta vazia
-Teste 58, tempo utilizado: 21 microsegundos
+Teste 58, tempo utilizado: 22 microsegundos
 Lista esta vazia
-Teste 59, tempo utilizado: 22 microsegundos
+Teste 59, tempo utilizado: 21 microsegundos
 Lista esta vazia
-Teste 60, tempo utilizado: 20 microsegundos
+Teste 60, tempo utilizado: 21 microsegundos
 Lista esta vazia
-Teste 61, tempo utilizado: 50 microsegundos
+Teste 61, tempo utilizado: 20 microsegundos
 Lista esta vazia
-Teste 62, tempo utilizado: 19 microsegundos
+Teste 62, tempo utilizado: 22 microsegundos
 Lista esta vazia
-Teste 63, tempo utilizado: 19 microsegundos
+Teste 63, tempo utilizado: 21 microsegundos
 Lista esta vazia
-Teste 64, tempo utilizado: 19 microsegundos
+Teste 64, tempo utilizado: 21 microsegundos
 Lista esta vazia
-Teste 65, tempo utilizado: 19 microsegundos
+Teste 65, tempo utilizado: 22 microsegundos
 Lista esta vazia
-Teste 66, tempo utilizado: 19 microsegundos
+Teste 66, tempo utilizado: 23 microsegundos
 Lista esta vazia
-Teste 67, tempo utilizado: 19 microsegundos
+Teste 67, tempo utilizado: 22 microsegundos
 Lista esta vazia
-Teste 68, tempo utilizado: 19 microsegundos
+Teste 68, tempo utilizado: 22 microsegundos
 Lista esta vazia
-Teste 69, tempo utilizado: 19 microsegundos
+Teste 69, tempo utilizado: 22 microsegundos
 Lista esta vazia
-Teste 70, tempo utilizado: 19 microsegundos
+Teste 70, tempo utilizado: 22 microsegundos
 Lista esta vazia
-Teste 71, tempo utilizado: 19 microsegundos
+Teste 71, tempo utilizado: 25 microsegundos
 Lista esta vazia
-Teste 72, tempo utilizado: 19 microsegundos
+Teste 72, tempo utilizado: 34 microsegundos
 Lista esta vazia
-Teste 73, tempo utilizado: 19 microsegundos
+Teste 73, tempo utilizado: 21 microsegundos
 Lista esta vazia
-Teste 74, tempo utilizado: 19 microsegundos
+Teste 74, tempo utilizado: 21 microsegundos
 Lista esta vazia
-Teste 75, tempo utilizado: 20 microsegundos
+Teste 75, tempo utilizado: 22 microsegundos
 Lista esta vazia
-Teste 76, tempo utilizado: 19 microsegundos
+Teste 76, tempo utilizado: 24 microsegundos
 Lista esta vazia
-Teste 77, tempo utilizado: 19 microsegundos
+Teste 77, tempo utilizado: 22 microsegundos
 Lista esta vazia
-Teste 78, tempo utilizado: 19 microsegundos
+Teste 78, tempo utilizado: 23 microsegundos
 Lista esta vazia
-Teste 79, tempo utilizado: 19 microsegundos
+Teste 79, tempo utilizado: 24 microsegundos
 Lista esta vazia
-Teste 80, tempo utilizado: 19 microsegundos
+Teste 80, tempo utilizado: 24 microsegundos
 Lista esta vazia
-Teste 81, tempo utilizado: 19 microsegundos
+Teste 81, tempo utilizado: 23 microsegundos
 Lista esta vazia
-Teste 82, tempo utilizado: 19 microsegundos
+Teste 82, tempo utilizado: 23 microsegundos
 Lista esta vazia
-Teste 83, tempo utilizado: 19 microsegundos
+Teste 83, tempo utilizado: 23 microsegundos
 Lista esta vazia
-Teste 84, tempo utilizado: 19 microsegundos
+Teste 84, tempo utilizado: 29 microsegundos
 Lista esta vazia
-Teste 85, tempo utilizado: 19 microsegundos
+Teste 85, tempo utilizado: 23 microsegundos
 Lista esta vazia
-Teste 86, tempo utilizado: 19 microsegundos
+Teste 86, tempo utilizado: 23 microsegundos
 Lista esta vazia
-Teste 87, tempo utilizado: 19 microsegundos
+Teste 87, tempo utilizado: 23 microsegundos
 Lista esta vazia
-Teste 88, tempo utilizado: 46 microsegundos
+Teste 88, tempo utilizado: 23 microsegundos
 Lista esta vazia
 Teste 89, tempo utilizado: 23 microsegundos
 Lista esta vazia
-Teste 90, tempo utilizado: 20 microsegundos
+Teste 90, tempo utilizado: 22 microsegundos
 Lista esta vazia
-Teste 91, tempo utilizado: 19 microsegundos
+Teste 91, tempo utilizado: 23 microsegundos
 Lista esta vazia
-Teste 92, tempo utilizado: 19 microsegundos
+Teste 92, tempo utilizado: 22 microsegundos
 Lista esta vazia
-Teste 93, tempo utilizado: 19 microsegundos
+Teste 93, tempo utilizado: 22 microsegundos
 Lista esta vazia
-Teste 94, tempo utilizado: 19 microsegundos
+Teste 94, tempo utilizado: 23 microsegundos
 Lista esta vazia
-Teste 95, tempo utilizado: 19 microsegundos
+Teste 95, tempo utilizado: 23 microsegundos
 Lista esta vazia
-Teste 96, tempo utilizado: 19 microsegundos
+Teste 96, tempo utilizado: 23 microsegundos
 Lista esta vazia
-Teste 97, tempo utilizado: 19 microsegundos
+Teste 97, tempo utilizado: 23 microsegundos
 Lista esta vazia
-Teste 98, tempo utilizado: 19 microsegundos
+Teste 98, tempo utilizado: 23 microsegundos
 Lista esta vazia
-Teste 99, tempo utilizado: 19 microsegundos
+Teste 99, tempo utilizado: 23 microsegundos
 Lista esta vazia
-Média Tree: 7.69
-Desvio padrão Tree: 2.27022
-Média lista: 20.46
-Desvio padrão lista: 4.31606
+Média Tree: 70.55
+Desvio padrão Tree: 27.1254
+Média lista: 22.25
+Desvio padrão lista: 2.30814
+========================Comparação entre BFS e DFS=====
+Nó encontrado
+Teste 0, tempo utilizado: 45 microsegundos
+Nó encontrado
+Teste 1, tempo utilizado: 49 microsegundos
+Nó encontrado
+Teste 2, tempo utilizado: 36 microsegundos
+Nó encontrado
+Teste 3, tempo utilizado: 34 microsegundos
+Nó encontrado
+Teste 4, tempo utilizado: 35 microsegundos
+Nó encontrado
+Teste 5, tempo utilizado: 36 microsegundos
+Nó encontrado
+Teste 6, tempo utilizado: 36 microsegundos
+Nó encontrado
+Teste 7, tempo utilizado: 35 microsegundos
+Nó encontrado
+Teste 8, tempo utilizado: 34 microsegundos
+Nó encontrado
+Teste 9, tempo utilizado: 35 microsegundos
+Nó encontrado
+Teste 10, tempo utilizado: 34 microsegundos
+Nó encontrado
+Teste 11, tempo utilizado: 35 microsegundos
+Nó encontrado
+Teste 12, tempo utilizado: 35 microsegundos
+Nó encontrado
+Teste 13, tempo utilizado: 30 microsegundos
+Nó encontrado
+Teste 14, tempo utilizado: 44 microsegundos
+Nó encontrado
+Teste 15, tempo utilizado: 35 microsegundos
+Nó encontrado
+Teste 16, tempo utilizado: 35 microsegundos
+Nó encontrado
+Teste 17, tempo utilizado: 34 microsegundos
+Nó encontrado
+Teste 18, tempo utilizado: 35 microsegundos
+Nó encontrado
+Teste 19, tempo utilizado: 35 microsegundos
+Nó encontrado
+Teste 20, tempo utilizado: 35 microsegundos
+Nó encontrado
+Teste 21, tempo utilizado: 35 microsegundos
+Nó encontrado
+Teste 22, tempo utilizado: 29 microsegundos
+Nó encontrado
+Teste 23, tempo utilizado: 37 microsegundos
+Nó encontrado
+Teste 24, tempo utilizado: 35 microsegundos
+Nó encontrado
+Teste 25, tempo utilizado: 35 microsegundos
+Nó encontrado
+Teste 26, tempo utilizado: 43 microsegundos
+Nó encontrado
+Teste 27, tempo utilizado: 35 microsegundos
+Nó encontrado
+Teste 28, tempo utilizado: 34 microsegundos
+Nó encontrado
+Teste 29, tempo utilizado: 34 microsegundos
+Nó encontrado
+Teste 30, tempo utilizado: 32 microsegundos
+Nó encontrado
+Teste 31, tempo utilizado: 35 microsegundos
+Nó encontrado
+Teste 32, tempo utilizado: 34 microsegundos
+Nó encontrado
+Teste 33, tempo utilizado: 32 microsegundos
+Nó encontrado
+Teste 34, tempo utilizado: 33 microsegundos
+Nó encontrado
+Teste 35, tempo utilizado: 34 microsegundos
+Nó encontrado
+Teste 36, tempo utilizado: 34 microsegundos
+Nó encontrado
+Teste 37, tempo utilizado: 38 microsegundos
+Nó encontrado
+Teste 38, tempo utilizado: 36 microsegundos
+Nó encontrado
+Teste 39, tempo utilizado: 35 microsegundos
+Nó encontrado
+Teste 40, tempo utilizado: 35 microsegundos
+Nó encontrado
+Teste 41, tempo utilizado: 33 microsegundos
+Nó encontrado
+Teste 42, tempo utilizado: 29 microsegundos
+Nó encontrado
+Teste 43, tempo utilizado: 27 microsegundos
+Nó encontrado
+Teste 44, tempo utilizado: 27 microsegundos
+Nó encontrado
+Teste 45, tempo utilizado: 30 microsegundos
+Nó encontrado
+Teste 46, tempo utilizado: 32 microsegundos
+Nó encontrado
+Teste 47, tempo utilizado: 32 microsegundos
+Nó encontrado
+Teste 48, tempo utilizado: 34 microsegundos
+Nó encontrado
+Teste 49, tempo utilizado: 33 microsegundos
+Nó encontrado
+Teste 50, tempo utilizado: 34 microsegundos
+Nó encontrado
+Teste 51, tempo utilizado: 28 microsegundos
+Nó encontrado
+Teste 52, tempo utilizado: 33 microsegundos
+Nó encontrado
+Teste 53, tempo utilizado: 33 microsegundos
+Nó encontrado
+Teste 54, tempo utilizado: 34 microsegundos
+Nó encontrado
+Teste 55, tempo utilizado: 32 microsegundos
+Nó encontrado
+Teste 56, tempo utilizado: 33 microsegundos
+Nó encontrado
+Teste 57, tempo utilizado: 33 microsegundos
+Nó encontrado
+Teste 58, tempo utilizado: 34 microsegundos
+Nó encontrado
+Teste 59, tempo utilizado: 33 microsegundos
+Nó encontrado
+Teste 60, tempo utilizado: 30 microsegundos
+Nó encontrado
+Teste 61, tempo utilizado: 33 microsegundos
+Nó encontrado
+Teste 62, tempo utilizado: 33 microsegundos
+Nó encontrado
+Teste 63, tempo utilizado: 33 microsegundos
+Nó encontrado
+Teste 64, tempo utilizado: 33 microsegundos
+N� encontrado
+Teste 65, tempo utilizado: 31 microsegundos
+Nó encontrado
+Teste 66, tempo utilizado: 33 microsegundos
+Nó encontrado
+Teste 67, tempo utilizado: 33 microsegundos
+Nó encontrado
+Teste 68, tempo utilizado: 33 microsegundos
+Nó encontrado
+Teste 69, tempo utilizado: 32 microsegundos
+Nó encontrado
+Teste 70, tempo utilizado: 29 microsegundos
+Nó encontrado
+Teste 71, tempo utilizado: 34 microsegundos
+Nó encontrado
+Teste 72, tempo utilizado: 29 microsegundos
+Nó encontrado
+Teste 73, tempo utilizado: 27 microsegundos
+Nó encontrado
+Teste 74, tempo utilizado: 27 microsegundos
+Nó encontrado
+Teste 75, tempo utilizado: 28 microsegundos
+Nó encontrado
+Teste 76, tempo utilizado: 27 microsegundos
+Nó encontrado
+Teste 77, tempo utilizado: 27 microsegundos
+Nó encontrado
+Teste 78, tempo utilizado: 27 microsegundos
+Nó encontrado
+Teste 79, tempo utilizado: 31 microsegundos
+Nó encontrado
+Teste 80, tempo utilizado: 33 microsegundos
+Nó encontrado
+Teste 81, tempo utilizado: 34 microsegundos
+Nó encontrado
+Teste 82, tempo utilizado: 32 microsegundos
+Nó encontrado
+Teste 83, tempo utilizado: 33 microsegundos
+Nó encontrado
+Teste 84, tempo utilizado: 28 microsegundos
+Nó encontrado
+Teste 85, tempo utilizado: 28 microsegundos
+Nó encontrado
+Teste 86, tempo utilizado: 29 microsegundos
+Nó encontrado
+Teste 87, tempo utilizado: 28 microsegundos
+Nó encontrado
+Teste 88, tempo utilizado: 28 microsegundos
+Nó encontrado
+Teste 89, tempo utilizado: 28 microsegundos
+Nó encontrado
+Teste 90, tempo utilizado: 28 microsegundos
+Nó encontrado
+Teste 91, tempo utilizado: 28 microsegundos
+Nó encontrado
+Teste 92, tempo utilizado: 36 microsegundos
+Nó encontrado
+Teste 93, tempo utilizado: 28 microsegundos
+Nó encontrado
+Teste 94, tempo utilizado: 28 microsegundos
+Nó encontrado
+Teste 95, tempo utilizado: 28 microsegundos
+Nó encontrado
+Teste 96, tempo utilizado: 28 microsegundos
+Nó encontrado
+Teste 97, tempo utilizado: 28 microsegundos
+Nó encontrado
+Teste 98, tempo utilizado: 29 microsegundos
+Nó encontrado
+Teste 99, tempo utilizado: 28 microsegundos
+Nó encontrado
+Teste 0, tempo utilizado: 8 microsegundos
+Nó encontrado
+Teste 1, tempo utilizado: 8 microsegundos
+Nó encontrado
+Teste 2, tempo utilizado: 11 microsegundos
+Nó encontrado
+Teste 3, tempo utilizado: 9 microsegundos
+Nó encontrado
+Teste 4, tempo utilizado: 6 microsegundos
+Nó encontrado
+Teste 5, tempo utilizado: 3 microsegundos
+Nó encontrado
+Teste 6, tempo utilizado: 3 microsegundos
+Nó encontrado
+Teste 7, tempo utilizado: 4 microsegundos
+Nó encontrado
+Teste 8, tempo utilizado: 4 microsegundos
+Nó encontrado
+Teste 9, tempo utilizado: 4 microsegundos
+Nó encontrado
+Teste 10, tempo utilizado: 4 microsegundos
+Nó encontrado
+Teste 11, tempo utilizado: 5 microsegundos
+Nó encontrado
+Teste 12, tempo utilizado: 5 microsegundos
+Nó encontrado
+Teste 13, tempo utilizado: 4 microsegundos
+Nó encontrado
+Teste 14, tempo utilizado: 4 microsegundos
+Nó encontrado
+Teste 15, tempo utilizado: 4 microsegundos
+Nó encontrado
+Teste 16, tempo utilizado: 4 microsegundos
+Nó encontrado
+Teste 17, tempo utilizado: 4 microsegundos
+Nó encontrado
+Teste 18, tempo utilizado: 17 microsegundos
+Nó encontrado
+Teste 19, tempo utilizado: 17 microsegundos
+Nó encontrado
+Teste 20, tempo utilizado: 9 microsegundos
+Nó encontrado
+Teste 21, tempo utilizado: 8 microsegundos
+Nó encontrado
+Teste 22, tempo utilizado: 9 microsegundos
+Nó encontrado
+Teste 23, tempo utilizado: 8 microsegundos
+Nó encontrado
+Teste 24, tempo utilizado: 8 microsegundos
+Nó encontrado
+Teste 25, tempo utilizado: 11 microsegundos
+Nó encontrado
+Teste 26, tempo utilizado: 9 microsegundos
+Nó encontrado
+Teste 27, tempo utilizado: 18 microsegundos
+Nó encontrado
+Teste 28, tempo utilizado: 10 microsegundos
+Nó encontrado
+Teste 29, tempo utilizado: 10 microsegundos
+Nó encontrado
+Teste 30, tempo utilizado: 10 microsegundos
+Nó encontrado
+Teste 31, tempo utilizado: 10 microsegundos
+Nó encontrado
+Teste 32, tempo utilizado: 9 microsegundos
+Nó encontrado
+Teste 33, tempo utilizado: 10 microsegundos
+Nó encontrado
+Teste 34, tempo utilizado: 9 microsegundos
+Nó encontrado
+Teste 35, tempo utilizado: 9 microsegundos
+Nó encontrado
+Teste 36, tempo utilizado: 9 microsegundos
+Nó encontrado
+Teste 37, tempo utilizado: 10 microsegundos
+N� encontrado
+Teste 38, tempo utilizado: 9 microsegundos
+Nó encontrado
+Teste 39, tempo utilizado: 4 microsegundos
+Nó encontrado
+Teste 40, tempo utilizado: 9 microsegundos
+Nó encontrado
+Teste 41, tempo utilizado: 20 microsegundos
+Nó encontrado
+Teste 42, tempo utilizado: 10 microsegundos
+Nó encontrado
+Teste 43, tempo utilizado: 10 microsegundos
+Nó encontrado
+Teste 44, tempo utilizado: 8 microsegundos
+Nó encontrado
+Teste 45, tempo utilizado: 17 microsegundos
+Nó encontrado
+Teste 46, tempo utilizado: 12 microsegundos
+Nó encontrado
+Teste 47, tempo utilizado: 12 microsegundos
+Nó encontrado
+Teste 48, tempo utilizado: 9 microsegundos
+Nó encontrado
+Teste 49, tempo utilizado: 10 microsegundos
+Nó encontrado
+Teste 50, tempo utilizado: 9 microsegundos
+Nó encontrado
+Teste 51, tempo utilizado: 10 microsegundos
+Nó encontrado
+Teste 52, tempo utilizado: 9 microsegundos
+Nó encontrado
+Teste 53, tempo utilizado: 9 microsegundos
+Nó encontrado
+Teste 54, tempo utilizado: 7 microsegundos
+Nó encontrado
+Teste 55, tempo utilizado: 8 microsegundos
+Nó encontrado
+Teste 56, tempo utilizado: 8 microsegundos
+Nó encontrado
+Teste 57, tempo utilizado: 7 microsegundos
+Nó encontrado
+Teste 58, tempo utilizado: 7 microsegundos
+Nó encontrado
+Teste 59, tempo utilizado: 8 microsegundos
+Nó encontrado
+Teste 60, tempo utilizado: 8 microsegundos
+Nó encontrado
+Teste 61, tempo utilizado: 8 microsegundos
+Nó encontrado
+Teste 62, tempo utilizado: 7 microsegundos
+Nó encontrado
+Teste 63, tempo utilizado: 5 microsegundos
+Nó encontrado
+Teste 64, tempo utilizado: 17 microsegundos
+Nó encontrado
+Teste 65, tempo utilizado: 7 microsegundos
+Nó encontrado
+Teste 66, tempo utilizado: 13 microsegundos
+Nó encontrado
+Teste 67, tempo utilizado: 11 microsegundos
+Nó encontrado
+Teste 68, tempo utilizado: 10 microsegundos
+Nó encontrado
+Teste 69, tempo utilizado: 10 microsegundos
+Nó encontrado
+Teste 70, tempo utilizado: 10 microsegundos
+Nó encontrado
+Teste 71, tempo utilizado: 11 microsegundos
+Nó encontrado
+Teste 72, tempo utilizado: 9 microsegundos
+Nó encontrado
+Teste 73, tempo utilizado: 9 microsegundos
+Nó encontrado
+Teste 74, tempo utilizado: 8 microsegundos
+Nó encontrado
+Teste 75, tempo utilizado: 10 microsegundos
+Nó encontrado
+Teste 76, tempo utilizado: 15 microsegundos
+Nó encontrado
+Teste 77, tempo utilizado: 11 microsegundos
+Nó encontrado
+Teste 78, tempo utilizado: 11 microsegundos
+Nó encontrado
+Teste 79, tempo utilizado: 9 microsegundos
+Nó encontrado
+Teste 80, tempo utilizado: 7 microsegundos
+Nó encontrado
+Teste 81, tempo utilizado: 7 microsegundos
+Nó encontrado
+Teste 82, tempo utilizado: 6 microsegundos
+Nó encontrado
+Teste 83, tempo utilizado: 6 microsegundos
+Nó encontrado
+Teste 84, tempo utilizado: 6 microsegundos
+Nó encontrado
+Teste 85, tempo utilizado: 9 microsegundos
+Nó encontrado
+Teste 86, tempo utilizado: 8 microsegundos
+Nó encontrado
+Teste 87, tempo utilizado: 7 microsegundos
+Nó encontrado
+Teste 88, tempo utilizado: 8 microsegundos
+Nó encontrado
+Teste 89, tempo utilizado: 9 microsegundos
+Nó encontrado
+Teste 90, tempo utilizado: 8 microsegundos
+Nó encontrado
+Teste 91, tempo utilizado: 8 microsegundos
+Nó encontrado
+Teste 92, tempo utilizado: 7 microsegundos
+Nó encontrado
+Teste 93, tempo utilizado: 8 microsegundos
+Nó encontrado
+Teste 94, tempo utilizado: 7 microsegundos
+Nó encontrado
+Teste 95, tempo utilizado: 7 microsegundos
+Nó encontrado
+Teste 96, tempo utilizado: 7 microsegundos
+Nó encontrado
+Teste 97, tempo utilizado: 8 microsegundos
+Nó encontrado
+Teste 98, tempo utilizado: 7 microsegundos
+Nó encontrado
+Teste 99, tempo utilizado: 7 microsegundos
+Média BFS: 32.61
+Desvio padrão BFS: 3.92401
+Média DFS: 8.62
+Desvio padrão DFS: 3.21179
+ACABOU
